@@ -1,0 +1,59 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box; 
+}
+.container{
+	margin: 0 20%;
+}
+a{
+	color: #407AAC;
+}
+.header .intro{
+	background-color: #6FA8DC;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+	padding: 20px 0;
+	margin: 20px 0;
+			
+}
+.header .intro p{
+	font-size: 18px;
+	margin-bottom:5px;
+}
+.header #author{
+	text-indent: 500px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+
+}
+.header .nav{
+	float: right;
+	margin-bottom: 5px;
+	
+}
+.header .nav ul li{
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+	border-right: 1.5px solid black;  
+}
+
+.header .nav ul li:last-child{
+	border-right: none;
+}
+.body .item{
+	width: 29%;
+	float: left;
+	margin-right: 20px;
+	text-align: justify;
+}
+footer{
+	background-color: #6FA8DC;
+	height: 50px;
+}
+footer h4{
+	text-align: center;
+	padding-top: 15px; 
+	color: #fff;
+}
