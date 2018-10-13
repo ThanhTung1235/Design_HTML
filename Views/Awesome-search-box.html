@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: #e84118;
+			}
+			.search-box{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				height: 40px;
+				border-radius: 40px;
+				padding: 10px;
+				background-color: #2f3640;
+			}
+			.search-box:hover > .search-text{
+				width: 240px;
+				padding: 0 6px;
+				transition: 0.4s;
+
+			}
+			.search-box:hover > .search-btn{
+				background: #fff
+
+			}
+			.search-btn{
+				color: #e84118;
+				float: right; 
+				width: 40px;
+				height: 40px;
+				border-radius:50%;
+				background-color: #2f3640;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.search-text{
+				border:none;
+				background: none;
+				outline: none;
+				float: left;
+				padding: 0;
+				color: white;
+				font-size: 16px;
+				transition: 0.4s;
+				line-height: 40px;
+				width: 0; 
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="search-box">
+			<input type="text" class="search-text" placeholder="Type to search" name="">
+			<a class="search-btn" href="#">
+				<i class="fas fa-search"></i>
+			</a>
+			
+		</div>
+	</body>
+</html>
